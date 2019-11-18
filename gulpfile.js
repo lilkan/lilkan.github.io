@@ -42,7 +42,7 @@ function img(){
 function html () {
     return gulp.src(paths.templates.pages)
         .pipe(pug({pretty:true}))
-        .pipe(gulp.dest(paths.root));
+        .pipe(gulp.dest('./'));
 };
 // convert sass
 function css(){

@@ -1,0 +1,36 @@
+.body{
+
+}
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Fira Sans', sans-serif;
+// font-family: 'Exo 2', sans-serif;
+
+.main_section{
+    filter: grayscale(50%);
+    height: 100vh;
+    background-image: url('../img/main.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content{
+    height: 100vh;
+}
+.main_name
+{   
+    font-size: 80px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: black 0 0 6px;
+}
+
+.main_allign{
+    height: 50%;
+}
+.contacts{
+    margin: 0 20px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+} 
